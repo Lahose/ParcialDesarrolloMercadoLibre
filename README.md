@@ -42,5 +42,5 @@ Respuesta: "mutant": false
 ## Pruebas
 Se usa Postman para realizar las pruebas. Para realizar las pruebas, se deben seguir los siguientes pasos:
 1. Crear un POST y un GET
-2. En el POST, se copia el siguiente enlace: http://localhost:8080/mutant. Luego, se ingresa uno de los ejemplos mencionados anteriormente o inventados por uno mismo y se verifica la respuesta.
-3. En el GET, se copia el siguiente enlace: http://localhost:8080/stats. Esto nos devuelve un JSON con el conteo de mutantes y humanos verificados.
+2. En el POST, se pega el siguiente enlace: http://localhost:8080/mutant. Luego, se ingresa uno de los ejemplos mencionados anteriormente o inventados por uno mismo y se verifica la respuesta.
+3. En el GET, se pega el siguiente enlace: http://localhost:8080/stats. Esto nos devuelve un JSON con el conteo de mutantes y humanos verificados.
