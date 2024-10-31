@@ -1,10 +1,10 @@
-#Examen Mercado Libre
+# Examen Mercado Libre
 Este proyecto nos permite identificar si un humano es mutante o no mediante su secuencia de ADN. La API detecta si un humano es mutante o no analizando la matriz, y si esta encuentra más de una secuencia de cuatro letras iguales, ya sea de forma horizontal, oblicua o vertical, entonces es un mutante.
 
-##Nivel 1
+## Nivel 1
 Este programa fue hecho con Java
 
-##Nivel 2
+## Nivel 2
 API REST para detectar mutantes, en Render: https://parcialdesarrollomercadolibre.onrender.com/
 - Endpoint: /mutant/
 - Metodo: POST
@@ -13,7 +13,7 @@ API REST para detectar mutantes, en Render: https://parcialdesarrollomercadolibr
 { "dna": ["ATGCGA", "CAGTGC", "TTATGT", "AGAAGG", "CCCCTA", "TCACTG"] }
 ```
 
-##Nivel 3
+## Nivel 3
 Devuelve un JSON con el conteo de mutantes y humanos verificados.
 - Endpoint: /stats/
 - Metodo: GET
@@ -26,7 +26,7 @@ Devuelve un JSON con el conteo de mutantes y humanos verificados.
 }
 ```
 
-##Ejemplos
+## Ejemplos
 Prueba Unitaria Mutante:
 ```
 { "dna": ["ACTG", "ACCG", "ACAT", ACGC"] }
@@ -39,7 +39,7 @@ Prueba Unitaria No Mutante:
 ```
 Respuesta: "mutant": false
 
-##Pruebas
+## Pruebas
 Se usa Postman para realizar las pruebas. Para realizar las pruebas, se deben seguir los siguientes pasos:
 1. Crear un POST y un GET
 2. En el POST, se copia el siguiente enlace: http://localhost:8080/mutant. Luego, se ingresa uno de los ejemplos mencionados anteriormente o inventados por uno mismo y se verifica la respuesta.
