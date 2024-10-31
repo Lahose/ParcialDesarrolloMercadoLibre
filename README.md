@@ -39,6 +39,9 @@ Prueba Unitaria No Mutante:
 ```
 Respuesta: "mutant": false
 
+## Diagrama de Secuencia
+![SecuenciaMercadoLibre](https://github.com/user-attachments/assets/28b6db03-8c12-42c3-9cf0-ee731beae077)
+
 ## Pruebas
 Se usa Postman para realizar las pruebas. Para realizar las pruebas, se deben seguir los siguientes pasos:
 1. Crear un POST y un GET
